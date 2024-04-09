@@ -110,9 +110,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {[1, 2, 3, 4, 5, 6, 7].map((i, index): any => {
+          {[1, 2, 3, 4, 5, 6, 7].map((i) => {
             return (
-              <div key={index} className=" flex">
+              <div key={i} className=" flex">
                 <div className=" w-1/3   ">
                   <img className=" rounded-lg w-52" src={item} alt="" />
                 </div>
